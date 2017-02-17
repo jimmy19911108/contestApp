@@ -22,7 +22,8 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_weight="1"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:id="@+id/rl1">
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -30,35 +31,37 @@
 
 
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/T6_1"
-                        android:id="@+id/imageView2" />
+                        app:srcCompat="@drawable/t6_1"
+                        android:id="@+id/iv1" />
                 </RelativeLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_weight="1"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:id="@+id/rl2">
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_weight="1"
                         android:layout_marginLeft="0dp"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/T6_10"
-                        android:id="@+id/imageView3" />
+                        app:srcCompat="@drawable/t6_10"
+                        android:id="@+id/iv2" />
                 </RelativeLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_weight="1"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:id="@+id/rl3">
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/T6_13"
-                        android:id="@+id/imageView4" />
+                        app:srcCompat="@drawable/t6_13"
+                        android:id="@+id/iv3" />
                 </RelativeLayout>
 
             </TableRow>
@@ -69,26 +72,49 @@
                 android:weightSum="3"
                 android:layout_weight="1">
 
-                <ImageView
-                    android:layout_width="wrap_content"
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/T6_16"
-                    android:id="@+id/imageView7" />
+                    android:id="@+id/rl4">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/T6_2"
-                    android:id="@+id/imageView6" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/t6_17"
+                        android:id="@+id/iv4" />
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/T6_17"
-                    android:id="@+id/imageView5" />
+                    android:id="@+id/rl5">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/t6_2"
+                        android:id="@+id/iv5" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/rl6">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/t6_16"
+                        android:id="@+id/iv6" />
+                </RelativeLayout>
+
             </TableRow>
 
             <TableRow
@@ -97,26 +123,49 @@
                 android:weightSum="3"
                 android:layout_weight="1">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/T6_21"
-                    android:id="@+id/imageView10" />
+                    android:id="@+id/rl7">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/T6_27"
-                    android:id="@+id/imageView9" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/t6_18"
+                        android:id="@+id/iv7" />
 
-                <ImageView
-                    android:layout_width="wrap_content"
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/T6_18"
-                    android:id="@+id/imageView8" />
+                    android:id="@+id/rl8">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/t6_27"
+                        android:id="@+id/iv8" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/rl9">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/t6_21"
+                        android:id="@+id/iv9" />
+                </RelativeLayout>
+
             </TableRow>
         </TableLayout>
 
@@ -151,6 +200,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView5" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/circle"
+                android:id="@+id/imageView" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
